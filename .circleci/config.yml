@@ -19,7 +19,7 @@ jobs:
     - run:
         command: using_the_cli.sh
         name: 'Help Topic: Using the CLI'
-    - run: echo "lmeow" && exit 10
+    - run: echo "lmeow" && $(exit 10)
     - run: echo "lmao"
 workflows:
   welcome:
